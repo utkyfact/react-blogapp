@@ -7,6 +7,11 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: ['react-router', 'react-loader-spinner'],
+      output: {
+        globals: {
+          'react-loader-spinner': 'ReactLoaderSpinner'
+        }
+      }
     },
   },
   resolve: {
@@ -14,4 +19,7 @@ export default defineConfig({
       'react-router': 'react-router-dom',
     },
   },
+  optimizeDeps: {
+    include: ['react-loader-spinner']
+  }
 })
