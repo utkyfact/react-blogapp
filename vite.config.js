@@ -13,12 +13,7 @@ export default defineConfig({
           'react-loader-spinner': 'ReactLoaderSpinner'
         }
       }
-    },
-  },
-  resolve: {
-    alias: {
-      'react-router': 'react-router-dom',
-    },
+    }
   },
   optimizeDeps: {
     include: ['react-loader-spinner', 'react-router']
