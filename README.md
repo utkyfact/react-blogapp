@@ -37,9 +37,7 @@ Bu proje, React ve Firebase kullanılarak geliştirilmiş modern bir blog platfo
 
 1. Projeyi klonlayın
 
-bash```
 git clone https://github.com/utkyfact/react-blogapp.git
-```
 
 2. Proje dizinine gidin
 
