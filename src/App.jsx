@@ -9,6 +9,7 @@ import PrivateRoute from './components/PrivateRoute';
 import { ToastContainer } from 'react-toastify';
 import BlogEkle from './pages/BlogEkle';
 import BlogDetail from './pages/BlogDetail';
+
 function App() {
 
 

@@ -9,6 +9,7 @@ export default defineConfig({
       external: ['react-router', 'react-loader-spinner'],
       output: {
         globals: {
+          'react-router': 'ReactRouter',
           'react-loader-spinner': 'ReactLoaderSpinner'
         }
       }
@@ -20,6 +21,6 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    include: ['react-loader-spinner']
+    include: ['react-loader-spinner', 'react-router']
   }
 })
