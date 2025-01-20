@@ -71,7 +71,7 @@ function Login() {
                     <input onChange={updateValue} type="password" className="grow" name="password" placeholder="***********" value={loginObj.password} />
                 </label>
 
-                <p><Link to={'/forget-pass'}>Şifreni mi unuttun?</Link></p>
+                <p><Link to={'/forget-pass'} className="hover:underline">Şifreni mi unuttun?</Link></p>
 
                 <p>Henüz üye değil misin?<Link to={'/register'} className="underline">Üye ol.</Link></p>
 
