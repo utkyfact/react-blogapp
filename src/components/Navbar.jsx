@@ -83,9 +83,9 @@ function Navbar() {
 
     return (
 
-        <div className="navbar bg-base-100 bg-opacity-55 container mx-auto mt-2 shadow-lg rounded-lg sticky top-5 space-x-1 z-50">
+        <div className="navbar bg-base-100 bg-opacity-55 container mx-auto mt-2 shadow-lg rounded-lg sticky top-5 z-50">
             <div className="flex-1">
-                <Link to={"/"} className="btn btn-ghost text-xl">HW Blog</Link>
+                <Link to={"/"} className="btn btn-ghost text-xl">Blogapp</Link>
             </div>
 
             {
@@ -110,9 +110,9 @@ function Navbar() {
                 </div>
 
                     :
-                    <ul className="flex">
-                        <li><Link to={"/login"} className="btn btn-ghost"><FiLogIn size={25} /></Link></li>
-                        <li><Link to={"/register"} className="btn btn-ghost"><FiUserPlus size={25} /></Link></li>
+                    <ul className="flex md:me-4">
+                        <li><Link to={"/login"} className="btn btn-ghost p-2"><FiLogIn size={25} /></Link></li>
+                        <li><Link to={"/register"} className="btn btn-ghost p-2"><FiUserPlus size={25} /></Link></li>
                     </ul>
             }
 
