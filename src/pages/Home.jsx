@@ -44,7 +44,7 @@ function Home() {
                                     <img
                                         src={blog.imageUrl}
                                         alt={blog.title}
-                                        className="aspect-square object-cover w-full md:h-full h-48 rounded-l-xl" />
+                                        className="aspect-square object-cover w-full md:h-full h-48 " />
                                 </figure>
                                 <div className="card-body md:w-4/5">
                                     <div className="flex items-center gap-4">
