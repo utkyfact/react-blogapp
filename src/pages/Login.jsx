@@ -75,9 +75,9 @@ function Login() {
 
                 <p>Henüz üye değil misin?<Link to={'/register'} className="underline">Üye ol.</Link></p>
 
-                <button type="submit" className="btn btn-active block m-auto md:w-2/6 w-full">Giriş Yap</button>
+                <button type="submit" className="btn btn-active block m-auto md:w-2/6 w-full rounded-md">Giriş Yap</button>
 
-                <div onClick={handleGoogleLogin} className="flex items-center justify-center gap-2 btn btn-active cursor-pointer md:w-2/6 w-full m-auto"><FcGoogle size={22} /><span>Goole ile giriş yap.</span></div>
+                <div onClick={handleGoogleLogin} className="flex items-center justify-center gap-2 btn btn-active cursor-pointer rounded-md md:w-2/6 w-full m-auto"><FcGoogle size={22} /><span>Goole ile giriş yap.</span></div>
             </form>
         </Layout>
     );

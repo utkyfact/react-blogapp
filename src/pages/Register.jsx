@@ -76,9 +76,9 @@ function Register() {
 
                 <p>Zaten üye misin?<Link to={'/login'} className="underline">Giriş yap.</Link></p>
 
-                <button type="submit" className="btn btn-active block m-auto">Kayıt Ol</button>
+                <button type="submit" className="btn btn-active block m-auto md:w-2/6 w-full rounded-md">Kayıt Ol</button>
 
-                <div onClick={handleGoogleLogin} className="flex items-center justify-center gap-2 btn btn-ghost cursor-pointer w-max m-auto"><FcGoogle /><span>Goole ile giriş yap.</span></div>
+                <div onClick={handleGoogleLogin} className="flex items-center justify-center gap-2 btn btn-active rounded-md cursor-pointer md:w-2/6 w-full m-auto"><FcGoogle /><span>Goole ile giriş yap.</span></div>
             </form>
         </Layout>
     );
