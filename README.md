@@ -1,4 +1,4 @@
-# HW Blog - Firebase Blog Uygulaması
+# Blogapp - Firebase Blog Uygulaması
 
 Bu proje, React ve Firebase kullanılarak geliştirilmiş modern bir blog platformudur. Kullanıcılar blog yazıları oluşturabilir, düzenleyebilir ve silebilir.
 
